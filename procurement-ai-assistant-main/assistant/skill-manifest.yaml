@@ -1,0 +1,37 @@
+name: Procurement AI Assistant
+version: 0.2.0
+author: Arun Balaji Raju
+license: MIT
+parent_skill: skills/procurement-skill.md
+assistant_instructions: assistant/PROCUREMENT_ASSISTANT_INSTRUCTIONS.md
+progressive_disclosure: true
+agent_skills_root: agent-skills/
+ready_to_upload_packages: packages/
+skills:
+  - id: procurement-intake
+    file: skills/procurement-intake-skill.md
+    triggers: [intake, new request, renewal request, preferred supplier, triage]
+  - id: market-research
+    file: skills/market-research-skill.md
+    triggers: [market research, supplier scan, vendor longlist, category research]
+  - id: rfp-drafting
+    file: skills/rfp-drafting-skill.md
+    triggers: [RFP, RFB, RFQ, RFI, SOW, requirements, evaluation criteria]
+  - id: pricing-model-review
+    file: skills/pricing-model-review-skill.md
+    triggers: [pricing, commercial envelope, TCO, SaaS pricing, rate card]
+  - id: sla-review
+    file: skills/sla-review-skill.md
+    triggers: [SLA, KPI, service credits, performance requirements]
+  - id: contract-risk-review
+    file: skills/contract-risk-review-skill.md
+    triggers: [contract, agreement, clause, redline, commercial risk]
+  - id: negotiation-prep
+    file: skills/negotiation-prep-skill.md
+    triggers: [negotiation, renewal increase, concessions, leverage, fallback]
+  - id: supplier-qbr
+    file: skills/supplier-qbr-skill.md
+    triggers: [QBR, supplier performance, vendor review, governance meeting]
+  - id: spend-analysis
+    file: skills/spend-analysis-skill.md
+    triggers: [spend, invoice, purchase order, licence usage, consolidation]

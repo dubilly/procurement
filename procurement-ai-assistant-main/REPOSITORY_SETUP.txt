@@ -1,0 +1,17 @@
+Repository name:
+procurement-ai-assistant
+
+Description:
+A reusable AI skill library for procurement workflows, sourcing, contracting and supplier management.
+
+Suggested topics:
+procurement, procurement-ai, generative-ai, strategic-sourcing, vendor-management, contract-management, workflow-automation, skill-md, digital-procurement
+
+First commit message:
+Publish Procurement AI Assistant v0.1.0
+
+First release tag:
+v0.1.0
+
+First release title:
+Procurement AI Assistant v0.1.0

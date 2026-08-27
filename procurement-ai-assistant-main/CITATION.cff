@@ -1,0 +1,11 @@
+cff-version: 0.2.0
+title: Procurement AI Assistant
+message: If you use this project, please cite it using the metadata in this file.
+type: software
+authors:
+  - family-names: Raju
+    given-names: Arun Balaji
+version: 0.2.0
+date-released: 2026-07-26
+license: MIT
+abstract: A model-agnostic library of reusable AI skills for procurement workflows.
